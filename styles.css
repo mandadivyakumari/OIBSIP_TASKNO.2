@@ -1,0 +1,94 @@
+/* Merged CSS Code */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpeg');
+    background-size: cover;
+    background-color: #ADD8E6;
+    background-repeat: no-repeat;
+    color: black; 
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+p {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.PROJECT {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ADD8E6;
+    text-align: left;
+}
+
+#ABOUT h2,
+#CONTACT h2,
+#PROJECTS h2 {
+    color: black;
+}
+
+.about__text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about__text strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.about__text em {
+    font-style: italic;
+    color: #28a745;
+}
+.about-content {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add padding around the content */
+    background-color: #ADD8E6; /* Background color */
+    border: 1px solid #ccc; /* Border */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
